@@ -1,2 +1,3 @@
 import "./styles.css";
-console.log("danish");
+import pageLoad from "./page-Load.js";
+pageLoad();
