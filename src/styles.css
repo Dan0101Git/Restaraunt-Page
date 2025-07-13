@@ -20,7 +20,7 @@ body{background-color: black;
     color: var(--font-color);
     font-family: var(--main-font);
     overflow-x: hidden;
-    padding:2rem;
+    padding:max(5vh,35px)
 }
 header{
     display: flex;
@@ -82,7 +82,7 @@ body>img{
     text-shadow: 2px 3px 2px rgb(128, 128, 128);
 }
  .logo-home{
-    font-size: min(4rem,10vw);
+    font-size: min(4rem,5vw);
 }
 #content{
     width:80vw;
@@ -167,9 +167,9 @@ font-size: .6rem;
 
 .logo-top-right{
     position: absolute;
-    top:min(2rem,7px);
-    right:min(1.2rem,7px);
-    font-size: min(1rem,5vw);
+    top:min(2rem,1vw);
+    right:min(1.2rem,1vw);
+    font-size: min(1rem,2vw);
     letter-spacing: .5rem;
 }
 .logo {
