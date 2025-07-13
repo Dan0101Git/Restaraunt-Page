@@ -29,10 +29,10 @@ header{
 header nav{
 display: flex;
 justify-content: center;
-gap:1rem;
+gap:min(1rem,2vw);
 align-items: center;
       background-color:rgba(64, 64, 64, 0.389);
-    width:min(40%,20rem);
+    width:max(40%,250px);
         border-radius: 1rem;
 }
 nav>*{
@@ -82,16 +82,14 @@ body>img{
     text-shadow: 2px 3px 2px rgb(128, 128, 128);
 }
  .logo-home{
-    font-size: 4rem;
-
-
+    font-size: min(4rem,10vw);
 }
 #content{
     width:80vw;
     min-height: 80%;
   background-color:rgba(64, 64, 64, 0.389);
     border-radius: 2rem;
-     margin: 4rem auto;
+     margin: 6vh auto;
      padding:2rem;
 }
 #content.menu-option{
@@ -169,9 +167,9 @@ font-size: .6rem;
 
 .logo-top-right{
     position: absolute;
-    top:2rem;
-    right:1.2rem;
-    font-size: 1rem;
+    top:min(2rem,7px);
+    right:min(1.2rem,7px);
+    font-size: min(1rem,5vw);
     letter-spacing: .5rem;
 }
 .logo {
