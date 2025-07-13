@@ -4,7 +4,7 @@ function domElements(c){
      document.querySelector("#content").remove();
   const contentDiv=document.createElement("div");
   contentDiv.setAttribute("id","content");
-window.document.body.appendChild(contentDiv);
+window.document.body.insertBefore(contentDiv,document.body.children[1]);
     return {navBar,contentDiv};
 }
 function createInforRow(icon,descrip,label){
